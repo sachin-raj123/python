@@ -32,15 +32,3 @@ marks.update({"math": x})
 
 print(marks)
 
-
-
-
-
-
-
-
-
-
-
-
-

@@ -48,8 +48,3 @@
 grade = ["A", "B", "C", "D", "B", "A", "C", "A"]
 grade.sort()
 print(grade)
-
-
-
-
-
