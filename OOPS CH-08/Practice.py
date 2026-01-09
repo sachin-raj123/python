@@ -17,26 +17,43 @@
 
              # practice QO NO. 02
 
-class account:
-    def __init__(self, bal, acc):
-        self.balance = bal
-        self.account_no = acc
+# class account:
+#     def __init__(self, bal, acc):
+#         self.balance = bal
+#         self.account_no = acc
 
-    def debit(self, amount):
-        self.balance -= amount
-        print("Rs.", amount, "was debited") 
-        print("total balance = ", self.get_balance())
+#     def debit(self, amount):
+#         self.balance -= amount
+#         print("Rs.", amount, "was debited") 
+#         print("total balance = ", self.get_balance())
         
-    def credit(self, amount):
-        self.balance -= amount
-        print("Rs.", amount, "was credited") 
-        print("total balance = ", self.get_balance())
+#     def credit(self, amount):
+#         self.balance -= amount
+#         print("Rs.", amount, "was credited") 
+#         print("total balance = ", self.get_balance())
 
-    def get_balance(self):
-        return self.balance
+#     def get_balance(self):
+#         return self.balance
     
-acc1 = account(10000, 12345)
-acc1.debit(1000)
-acc1.credit(500)
-acc1.credit(40000)
+# acc1 = account(10000, 12345)
+# acc1.debit(1000)
+# acc1.credit(500)
+# acc1.credit(40000)
 
+
+                # practice QO NO. 03
+
+class circle:
+    def __init__(self, radius):
+        self.radius = radius
+
+    def area(self):
+        return (22/7) * self.radius ** 2 
+
+    def perimeter(self):
+        return 2 * (22/7) * self.radius
+
+
+c1 = circle(21)
+print(c1.area())
+print(c1.perimeter())
